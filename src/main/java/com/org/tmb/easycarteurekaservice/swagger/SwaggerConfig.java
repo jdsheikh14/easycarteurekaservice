@@ -12,6 +12,12 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import static springfox.documentation.builders.PathSelectors.regex;
 import static com.google.common.base.Predicates.or;
 
+/**
+ * @author Junaid Atta 08/October/2019
+ * @version 1.0 SwaggerConfig holds the configuration to be used
+ * for products documentation created by swagger.
+ */
+
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
